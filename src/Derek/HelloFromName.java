@@ -1,5 +1,5 @@
 package Derek;
-
+//A friendly introduction class
 public class HelloFromName {
     public void Hello(final String name){
         System.out.print("Hello, my name is " + name);
@@ -9,4 +9,5 @@ public class HelloFromName {
         HelloFromName hello = new HelloFromName();
         hello.Hello("Derek");
     }
+
 }
